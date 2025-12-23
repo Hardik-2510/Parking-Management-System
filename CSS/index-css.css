@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    background: cornsilk;
+}
+
+.head .navbar{
+    margin-right: 10px;
+    a{
+        color: black;
+        font-size: 25px;
+        text-decoration: none;
+    }
+}
+
+.body .sub-body{
+    padding : 35px ;
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    img{
+        border-radius: 34px;
+        height: 40%;
+        width: 40%;
+    }
+    span{
+        font-size: 24px;
+        padding: 25px;
+        word-spacing: 13px;
+        line-height: 42px;
+    }
+}
