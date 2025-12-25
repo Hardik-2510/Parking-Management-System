@@ -9,6 +9,7 @@
 </head>
 <body>
     <script src="..\JS\script.js"></script>
+    <script type="module" src="..\JS\login.js"></script>
     <div class="head">
         <div class="logo">
             <h1 onclick="home()">Parking Slot Booking</h1>
@@ -19,23 +20,14 @@
         <table>
             <tr>
                 <td>Email</td>
-                <td><input type="email"></td>
+                <td><input id="email" type="email"></td>
             </tr>
             <tr>
                 <td>Password</td>
-                <td><input type="password"></td>
+                <td><input id="password" type="password"></td>
             </tr>
             <tr>
-                <td>login As</td>
-                <td>
-                    <select name="Role" id="role">
-                        <option value="Customer">Customer</option>
-                        <option value="Owner">Admin</option>
-                    </select>
-                </td>
-            </tr>
-            <tr>
-                <td><button>Login</button></td>
+                <td><button id="loginBtn">Login</button></td>
             </tr>
         </table>
     </div>
